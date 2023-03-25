@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(45deg, rgb(0, 255, 98), rgb(54, 54, 183));
+  width: 100%;
+  height: 100vh;
+}
+.pag3 {
+  width: 100%;
+  height: 550px;
+  background-image: url("ppo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.f {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.f img {
+  width: 100%;
+  grid-template-columns: 99% 99% 99%;
+  padding: 5px;
+  height: 150px;
+}
+
+.f1 {
+  width: 49%;
+  height: 450px;
+
+  margin-top: 50px;
+  margin: 15px;
+  display: grid;
+  /* column-gap: 20px; */
+  grid-template-rows: none;
+}
+
+.f2 {
+  width: 49%;
+  height: 450px;
+  /* background-color: brown; */
+  margin-top: 50px;
+  margin: 15px;
+  display: grid;
+  /* column-gap: 20px; */
+  grid-template-rows: none;
+}
+
+.k1 {
+  width: 100%;
+  grid-template-columns: 99% 99% 99%;
+  padding: 5px;
+  height: 150px;
+
+  text-align: center;
+}
+
+.k1 p {
+  font-size: 23px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  text-shadow: 5px 5px 5px white;
+}
+
+.pag3 h1 {
+  font-size: 45px;
+  text-shadow: 3px 3px 3px white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block;
+  /* padding-left: 30px; */
+  display: inline-block;
+}
+/* ------------------------------------------------------------------- */
+.k2 p {
+  font-size: 23px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  text-shadow: 5px 5px 5px white;
+}

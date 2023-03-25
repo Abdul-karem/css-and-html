@@ -1,0 +1,41 @@
+footer {
+    background-color: linear-gradient(45deg, rgb(0, 255, 242), rgb(54, 54, 183));
+    color: #161515;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .fa {
+    font-size: 20px;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .fa:hover {
+    color: #007bff;
+  }
+  
+  .container p {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .container img {
+    width: 30px;
+    height: 25px;
+  }

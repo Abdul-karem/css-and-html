@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        background-color: #2196f3;
+        padding: 10px;
+        width: 50%;
+        height: 400px;
+      }
+
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+      }
+      #ggu {
+        grid-column: 1/5;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(161, 230, 43)">
+    <div class="grid-container">
+      <div class="grid-item" id="ggu"></div>
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item" style="background-color: orange">+</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item" style="background-color: orange">-</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+      <div class="grid-item" style="background-color: orange">*</div>
+      <div class="grid-item" style="background-color: rgb(199, 57, 57)">C</div>
+      <div class="grid-item">0</div>
+      <div class="grid-item">=</div>
+      <div class="grid-item" style="background-color: orange">/</div>
+    </div>
+  </body>
+</html>

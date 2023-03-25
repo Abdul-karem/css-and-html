@@ -1,0 +1,341 @@
+nav a {
+  text-decoration: none;
+  color: rgb(232, 232, 244);
+  font-size: larger;
+  margin: 10px;
+  text-shadow: 5px 5px 5px black;
+}
+
+.navbar {
+  background-color: linear-gradient(
+    45deg,
+    rgb(0, 255, 98),
+    rgb(54, 54, 183)
+  ) !important;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(0, 255, 98), rgb(54, 54, 183));
+  width: 100%;
+  height: 100vh;
+}
+
+.conten {
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+}
+
+.w1 {
+  width: 40%;
+  height: 550px;
+  margin: 15px;
+
+  box-shadow: 15px 15px 15px rgb(3, 40, 68);
+}
+
+.w2 {
+  width: 55%;
+  height: 550px;
+  margin: 15px;
+  background-color: rgb(235, 221, 221);
+  text-align: center;
+  padding-top: 30px;
+  box-shadow: 15px 15px 15px rgb(4, 29, 69);
+}
+
+.wd {
+  width: 100%;
+  height: 550px;
+}
+
+.w2 h1 {
+  font-size: 45px;
+  text-shadow: 3px 3px 3px white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.w2 h2 {
+  margin-top: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.w2 p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.w2 span {
+  color: blue;
+}
+/* ------------------------------------------------ */
+.pag2 {
+  width: 100%;
+  height: 550px;
+  background-image: url("ppo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.pag2 h1 {
+  font-size: 45px;
+  text-shadow: 3px 3px 3px white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block;
+  /* padding-left: 30px; */
+  display: inline-block;
+}
+
+.f {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.f img {
+  width: 100%;
+  grid-template-columns: 99% 99% 99%;
+  padding: 5px;
+  height: 150px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.f1 {
+  width: 49%;
+  height: 450px;
+
+  margin-top: 50px;
+  margin: 15px;
+  display: grid;
+  /* column-gap: 20px; */
+  grid-template-rows: none;
+}
+
+.f2 {
+  width: 49%;
+  height: 450px;
+  /* background-color: brown; */
+  margin-top: 50px;
+  margin: 15px;
+  display: grid;
+  /* column-gap: 20px; */
+  grid-template-rows: none;
+}
+
+.k1 {
+  width: 100%;
+  grid-template-columns: 99% 99% 99%;
+  padding: 5px;
+  height: 150px;
+
+  text-align: center;
+}
+
+.k1 p {
+  font-size: 23px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  text-shadow: 5px 5px 5px white;
+}
+/* ---------------------------------------------------- */
+
+.pag3 {
+  width: 100%;
+  height: 550px;
+  background-image: url("ppo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.pag3 h1 {
+  font-size: 45px;
+  text-shadow: 3px 3px 3px white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block;
+  /* padding-left: 30px; */
+  display: inline-block;
+}
+/* ------------------------------------------------------------------- */
+.k2 p {
+  font-size: 23px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  text-shadow: 5px 5px 5px white;
+}
+
+.pag4 {
+  width: 100%;
+  height: 600px;
+  background-image: url("ppo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.f4 {
+  width: 100%;
+  height: 550px;
+}
+
+.pag4 img {
+  width: 60%;
+  height: 140px;
+  margin: 20px;
+  box-shadow: 10px 10px 10px black;
+}
+
+footer {
+  background-color: linear-gradient(45deg, rgb(0, 255, 242), rgb(54, 54, 183));
+  color: #161515;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.fa {
+  font-size: 20px;
+  color: #555;
+  transition: color 0.3s ease-in-out;
+}
+
+.fa:hover {
+  color: #007bff;
+}
+
+.container p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container img {
+  width: 30px;
+  height: 25px;
+}
+/* 
+/* For devices with a maximum width of 600px */
+@media (max-width: 600px) {
+  .conten {
+    font-size: 16px;
+    /* flex-direction: column; */
+  }
+
+  .footer{
+    flex-direction: column;
+
+
+    }
+
+.pag3 h1{
+font-size: 15px;
+
+}
+
+.k1 p{
+  font-size: 10px;
+
+}
+
+
+  .k2 p{
+font-size: 10px;
+
+  }
+
+  .k2 p{  
+    font-size: 10px;
+  }
+
+
+  .conten img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .w1 {
+    width: 40%;
+    height: 300px;
+  }
+
+  .w2 {
+    width: 50%;
+    height: 380px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .w2 h1 {
+    font-size: 20px;
+  }
+
+  .w2 p {
+    font-size: 10px;
+  }
+
+  .pag3 {
+    background-image: none;
+
+    font-size: 5px;
+  }
+
+  .f {
+    
+
+    font-size: 5px;
+  }
+
+  .f1 {
+    font-size: 5px;
+    
+  }
+
+  .w1 {
+    font-size: 5px;
+  }
+
+  p {
+    font-size: 5px;
+  }
+}
+
+/* For devices with a minimum width of 601px and maximum of 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+}
+
+@media (max-width: 300px) {
+  body p {
+    font-size: 5px;
+  }
+
+
+
+}
+
+
+
+@media (max-width: 250px) {
+  body {
+    visibility: hidden;
+  }
+}
