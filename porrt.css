@@ -75,7 +75,7 @@ body {
 .pag2 {
   width: 100%;
   height: 550px;
-  background-image: url("ppo.jpg");
+  background-image:  linear-gradient(45deg, rgb(0, 255, 98), rgb(54, 54, 183));
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -148,7 +148,7 @@ body {
 .pag3 {
   width: 100%;
   height: 550px;
-  background-image: url("ppo.jpg");
+  background-image: linear-gradient(45deg, rgb(0, 255, 98), rgb(54, 54, 183));
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -174,7 +174,7 @@ body {
 .pag4 {
   width: 100%;
   height: 600px;
-  background-image: url("ppo.jpg");
+  background-image: linear-gradient(45deg, rgb(0, 255, 98), rgb(54, 54, 183));
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -220,7 +220,7 @@ footer {
 }
 
 .fa:hover {
-  color: #007bff;
+  color: #072a50;
 }
 
 .container p {
@@ -233,6 +233,7 @@ footer {
   width: 30px;
   height: 25px;
 }
+
 /* 
 /* For devices with a maximum width of 600px */
 @media (max-width: 600px) {
@@ -241,32 +242,25 @@ footer {
     /* flex-direction: column; */
   }
 
-  .footer{
+  .footer {
     flex-direction: column;
-
-
-    }
-
-.pag3 h1{
-font-size: 15px;
-
-}
-
-.k1 p{
-  font-size: 10px;
-
-}
-
-
-  .k2 p{
-font-size: 10px;
-
   }
 
-  .k2 p{  
-    font-size: 10px;
+  .pag3 h1 {
+    font-size: 15px;
   }
 
+  .k1 p {
+    font-size: 12px;
+  }
+
+  .k2 p {
+    font-size: 12px;
+  }
+
+  .k2 p {
+    font-size: 12px;
+  }
 
   .conten img {
     width: 100%;
@@ -274,13 +268,13 @@ font-size: 10px;
   }
 
   .w1 {
-    width: 40%;
+    width: 60%;
     height: 300px;
   }
 
   .w2 {
     width: 50%;
-    height: 380px;
+    height: 80%;
     font-size: 15px;
     font-family: "Courier New", Courier, monospace;
   }
@@ -290,10 +284,78 @@ font-size: 10px;
   }
 
   .w2 p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .pag3 {
+    background-image: none;
+
+    font-size: 8px;
+  }
+
+  .f {
+    font-size: 8px;
+  }
+
+  .f1 {
+    font-size: 8px;
+  }
+
+  .w1 {
+    font-size: 8px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+}
+
+/* For devices with a minimum width of 601px and maximum of 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+}
+
+@media (max-width: 300px) {
+  body p {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 200px) {
+  body {
+    visibility: hidden;
+  }
+}
+
+a:link {
+  transition: all 0.5s ease;
+}
+
+a:active,
+a:focus {
+  color: rgb(33, 10, 137);
+}
+
+a img:hover {
+  transform: rotate(20deg) translateX(10px) scale(1.2);
+  transition: all 0.5s ease;
+}
+
+.ffg{
+color: blue;
+
+}
+
+/* a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px dotted rgb(11, 131, 129);
+  background-color: rgb(15, 132, 116);
+  color: white;
+  text-align: center;
+}
+ */
+
+/* .pag3 {
     background-image: none;
 
     font-size: 5px;
@@ -306,7 +368,7 @@ font-size: 10px;
   }
 
   .f1 {
-    font-size: 5px;
+    font-size: 3px;
     
   }
 
@@ -317,25 +379,57 @@ font-size: 10px;
   p {
     font-size: 5px;
   }
+
 }
 
-/* For devices with a minimum width of 601px and maximum of 900px */
-@media (min-width: 601px) and (max-width: 900px) {
-}
+.footer{
+  flex-direction: column;
+flex-wrap: wrap;
 
-@media (max-width: 300px) {
-  body p {
-    font-size: 5px;
   }
 
+.pag3 h1{
+font-size: 10px;
 
+}
+
+.k1 p{
+font-size: 7px;
 
 }
 
 
+.k2 p{
+font-size: 7px;
 
-@media (max-width: 250px) {
-  body {
-    visibility: hidden;
-  }
 }
+
+.k2 p{  
+  font-size: 7px;
+}
+
+
+.conten img {
+  width: 100%;
+  height: 300px;
+}
+
+.w1 {
+  width: 50%;
+  height: 300px;
+}
+
+.w2 {
+  width: 50%;
+  height: 80%;
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.w2 h1 {
+  font-size: 10px;
+}
+
+.w2 p {
+  font-size: 7px;
+} */
